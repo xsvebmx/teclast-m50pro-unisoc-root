@@ -1,0 +1,14 @@
+# Reference sha256 for Teclast M50 Pro (M4P1 EEA, UMS9230 / T616)
+# Use these to check that your stock firmware matches this guide.
+
+## stock partitions read from the tablet (slot b)
+8102e96c3680411fe755677ca99f84146f874530e782043ceb799f184a3aa338  trustos_b
+8051b550e39e07d0f7d5c84e584e0deeb577b7a885b57c36fc804b9b994817fb  boot_b
+
+## files you build (device specific)
+536e32299322a8e50e68c944575b6d301046c6ca9adf0ff02aae4310001addab  images/fdl1-dl.bin
+d8d3ab393f9215a9e1879975d2c6b632bdbe50074e967569f6916ff64827a660  images/fdl2.bin
+03f0c06fa3490904e6e015c18d347ca63c7dc757b3186e6f8e8932782d766302  images/tos-noavb-bsp-bypassed_b.bin
+
+## boot patched with Magisk 31.1
+cc8270fe50a1daa9294bc506c47af8bcec637ae1b7fbdeeef08996a283e73cab  magisk_patched.img
